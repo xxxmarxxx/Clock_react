@@ -26,16 +26,15 @@ button{
 }
 .clock{
     font-size: 80px;
-    width: 600px;
-    height: 600px;
     color: #01ff4d;
     text-shadow: -5px 5px 15px #80fea6;
-    background-color: rgb(10, 29, 8);
+    width: 600px;
+    height: 600px;
     border: solid 45px #6f716bd6;
     border-radius: 300px;
     padding-top: 205px;
     margin: auto;
     box-shadow: 20px 30px 10px 10px rgba(0,0,0,.3);
+    background-color: rgb(10, 29, 8);
     
-}
 }
