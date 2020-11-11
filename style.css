@@ -14,7 +14,7 @@ h1{
    
 }
 button{
-    color: #FFFFFF;
+    color: #c1ff8be7;
     background-color: #618220;
     width: 300px;
     height: 80px;
@@ -25,16 +25,17 @@ button{
     font-size: 60px;
 }
 .clock{
-    color: rgb(255, 0, 111);
-    font-size: 60px;
-    width: 500px;
-    height: 500px;
+    font-size: 80px;
+    width: 600px;
+    height: 600px;
     color: #01ff4d;
-    background: #912C22;
-    text-shadow: 0 0 10px #FFFFFF;
-    background-color: rgb(31, 16, 16);
-    border: solid 40px #81a1ac;
-    padding-top: 170px;
-    margin: auto;
+    text-shadow: -5px 5px 15px #80fea6;
+    background-color: rgb(10, 29, 8);
+    border: solid 45px #6f716bd6;
     border-radius: 300px;
+    padding-top: 205px;
+    margin: auto;
+    box-shadow: 20px 30px 10px 10px rgba(0,0,0,.3);
+    
+}
 }
