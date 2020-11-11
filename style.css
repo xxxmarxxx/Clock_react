@@ -1,40 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #25310C;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  /* background-color: #25310c; */
 }
-h1{
-    background-color: #192206;
-    padding: 30px;
-    color: #618220;
-    
-   
+body {
+  background:   radial-gradient(black 15%, transparent 16%) 0 0,
+                radial-gradient(black 15%, transparent 16%) 8px 8px,
+                radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+                radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #25310c;
+  background-size: 18px 18px;
 }
-button{
-    color: #c1ff8be7;
-    background-color: #618220;
-    width: 300px;
-    height: 80px;
-    padding: 10px;
-    margin: 150px 0;
-    border-radius: 10px;
-    border: solid 0px;
-    font-size: 60px;
+h1 {
+  background-color: #192206;
+  padding: 30px;
+  color: #618220;
 }
-.clock{
-    font-size: 80px;
-    color: #01ff4d;
-    text-shadow: -5px 5px 15px #80fea6;
-    width: 600px;
-    height: 600px;
-    border: solid 45px #6f716bd6;
-    border-radius: 300px;
-    padding-top: 205px;
-    margin: auto;
-    box-shadow: 20px 30px 10px 10px rgba(0,0,0,.3);
-    background-color: rgb(10, 29, 8);
-    
+button {
+  color: #c1ff8be7;
+  background-color: #618220;
+  width: 300px;
+  height: 80px;
+  padding: 10px;
+  margin: 150px 0;
+  border-radius: 10px;
+  border: solid 0px;
+  font-size: 60px;
+}
+.clock {
+  font-size: 80px;
+  color: #01ff4d;
+  text-shadow: -5px 5px 15px #80fea6;
+  width: 600px;
+  height: 600px;
+  border: solid 45px #6f716bd6;
+  border-radius: 300px;
+  padding-top: 205px;
+  margin: auto;
+  box-shadow: 20px 30px 10px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgb(10, 29, 8);
 }
