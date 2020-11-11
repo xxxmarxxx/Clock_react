@@ -22,7 +22,7 @@ class App extends React.Component {
   }
   
   const SwitchButton = (props) => (
-    <button onClick={props.click}>{props.active ? "Wylacz" : "Wlacz"}</button>
+    <button onClick={props.click}>{props.active ? "Off" : "On"}</button>
   );
   
   class Clock extends React.Component {
